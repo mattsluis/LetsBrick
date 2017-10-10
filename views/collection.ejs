@@ -1,0 +1,23 @@
+  <div class="collectionPage">
+    <h1 class="collectTitle"> Collection</h1>
+    <div>
+      <% if (currentUser) { %>
+        <p class="collectInfo"><%= currentUser.username %>, you currently have <b class="totalCount"></b> pieces over <b class="setCount"></b> sets.</p>
+      <% }; %>
+    </div>
+    <div class="coverflow">
+      <% collections.forEach(function(collection) { %>
+        <div class="cover">
+          <h3 class="collectCover"><%= collection.title %></h3>
+          <h5 class='collectCover'>Set #: <a class ="result" href="<%= '/searchResult/'+collection.set_id %>"><%= collection.set_id %></a></h5>
+          <img class="collectionImg" src="<%= collection.imglink %>"></br>
+          <button type="button" removeId="<%= collection.id %>" class="delete-btn btn btn-danger">Remove</button>
+        </div>
+      <% }); %>
+    </div>
+
+
+    <% collections.forEach(function(collection) { %>
+      <div class="hiddenCount"><%= collection.count %></div>
+    <% }); %>
+  </div>

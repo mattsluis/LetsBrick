@@ -1,0 +1,33 @@
+.navbar-default{
+  background-image: url("../images/blueBoard.jpg");
+  border-width: 3px;
+  border-color: black;
+  border-padding: 5px;
+  color:  #46433a;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+
+}
+/*LINKS*/
+.navbar-default .navbar-nav>li>a {
+  color: #46433a;
+  text-decoration: underline;
+  font-size: 18px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #46433a;
+  text-decoration: overline;
+}
+
+.navbar-default .navbar-brand {
+  color: #46433a;
+  font-family: 'VT323';
+  font-size: 30px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+a#logout {
+  font-size: 12px;
+  }

@@ -1,0 +1,39 @@
+.coverflow {
+  text-align: center;
+}
+.collectTitle {
+  text-align: center;
+  color: #46433a;
+  font-family: 'VT323' ;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.collectionImg {
+  width: 100%;
+  height: auto;
+}
+.collectCover {
+  color: #46433a;
+  font-family: 'VT323' ;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.collectInfo {
+  text-align: center;
+  color: #46433a;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.hiddenCount {
+  display: none;
+}
+
+.totalCount {
+  color: #46433a;
+  font-family: 'VT323' ;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  font-size: 30px;
+}
+.setCount {
+  color: #46433a;
+  font-family: 'VT323' ;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  font-size: 30px;
+}

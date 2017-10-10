@@ -1,0 +1,16 @@
+<div class="col-xs-6 col-sm-6 col-md-6">
+  <h3 class="results" id = "title"><a href="<%= lego.set_url %>"><%= lego.name %></a></h3>
+    <ul>
+      <li id = "theme" class="showDetail"> Theme: <%= theme.name %> </li>
+      <li id = "year" class="showDetail"> Year: <%= lego.year %> </li>
+      <li id = "set_id" class="showDetail"><%= lego.set_num %> </li>
+      <li class="showDetail">Piece Count:<b id="count"><%= lego.num_parts %></b></li>
+    </ul>
+    <button type="button" id="collection-btn"  class="btn btn-success">+Collection</button>
+</div>
+
+
+
+<div class="col-xs-6 col-sm-6 col-md-6">
+  <img class="show" id = "legoimg" src="<%= lego.set_img_url %>">
+</div>

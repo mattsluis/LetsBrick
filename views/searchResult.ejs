@@ -1,0 +1,13 @@
+ <div class="col-sm-12">
+  <ul>
+    <h4 class="results"> Results:</h4>
+    <ul class="title">
+      <% legos.forEach(function(lego) { %>
+      <li>
+        <h3><a class ="result" href="<%= '/searchResult/' + lego.set_num + '/?q=' + q %>"><img class="results" src="<%= lego.set_img_url %>" >  <%= lego.name %></h3></a>
+      </li>
+      <% }); %>
+    </ul>
+
+    <!-- <button id='next-page' class='btn btn-success'><a href='' class='result'>Next Page</a></button> -->
+ </div>

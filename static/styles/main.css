@@ -1,0 +1,63 @@
+/*GENERAL*/
+
+body {
+  background-color: gray;
+}
+.container {
+  color: #46433a;
+  background-image: url("../images/lightGrayBoard.jpg");
+  background-repeat: repeat;
+}
+.foot {
+  color: white;
+  text-align: center;
+}
+
+/*HOMEPAGE*/
+
+.letsBrick {
+  color: #46433a;
+  font-family: 'VT323' ;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.welcome {
+  font-size: 15px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.welcomePicture {
+    width: 100%;
+    height: auto;
+}
+.signupLink {
+  color: white;
+}
+
+/*SHOW*/
+
+.show {
+  width: 100%;
+  height: auto;
+}
+.showDetail {
+  color: white;
+  font-size: 18px;
+  text-shadow: -2px 0 #46433a, 0 2px #46433a, 2px 0 #46433a, 0 -2px #46433a;
+}
+
+ /*RESULTS*/
+
+.result {
+  color: #46433a;
+  text-decoration: underline;
+  font-size: 18px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.results {
+  width: 100px;
+  height: auto;
+  color: #46433a;
+  font-family: 'VT323' ;
+  font-size: 30px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}

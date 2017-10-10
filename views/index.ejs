@@ -1,0 +1,32 @@
+  <div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4">
+      <div class="welcome">
+        <% if (currentUser){%>
+        You are logged in as, <%= currentUser.username %>
+        <% }; %>
+        <h1 class="letsBrick"> LetsBrick! </h1>
+        <ul>
+          <li>Find a Model</li>
+          <li>Catalogue your collection</li>
+          <li>Construct a Wishlist</li>
+          <li>Share with others</li>
+        </ul>
+      </div>
+
+
+
+        <form method="POST" action="/auth/login">
+          <input type="name" name="username" id="username" class="form-control input-sm" placeholder="Your username">
+          <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
+          <input type="submit" value="Log In" class="btn btn-info btn-block">
+        </form>
+
+        <a class= "signupLink" href="signup">New user? Sign up here.</a>
+    </div>
+
+    <div class="col-xs-8 col-sm-8 col-md-8">
+      <div>
+        <img src ="/images/legoarch.jpg" class = "welcomePicture" >
+      </div>
+    </div>
+  </div>

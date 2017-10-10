@@ -1,0 +1,35 @@
+{
+  "name": "myproject2",
+  "version": "1.0.0",
+  "description": "project number 2",
+  "main": "index.js",
+  "scripts": {
+   "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsluis/letsBrick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattsluis/letsBrick/issues"
+  },
+  "homepage": "https://github.com/mattsluis/letsBrick#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-ejs-layouts": "^2.1.0",
+    "express-session": "^1.13.0",
+    "node-sass": "^4.5.3",
+    "pg": "^4.5.3",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.72.0",
+    "sequelize": "^3.21.0",
+    "sequelize-cli": "^2.4.0"
+  }
+}
